@@ -42,11 +42,15 @@ This idea is incorporated into the application’s design, allowing clients to c
 
 # IV. Instructions for Running the Program
 
-1. #Install Java#: Ensure you have the Java Development Kit (JDK) installed on your machine. If not, download and install it from here.
+1. *Install Java*: Ensure you have the Java Development Kit (JDK) installed on your machine. If not, download and install it from here.
 
 2. *Create a Java File*: Copy the provided code into a new .java file (e.g., LoanProcessingSystem.java).
 
-Compile the Program: Open a terminal or command prompt and navigate to the directory where your .java file is saved. Run the following command to compile the program:
+3. *Compile the Program*: Open a terminal or command prompt and navigate to the directory where your .java file is saved. Run the following command to compile the program:
+
+*javac LoanProcessingSystem.java*
+
+
 
   
 
