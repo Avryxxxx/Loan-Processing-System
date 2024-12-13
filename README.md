@@ -42,13 +42,71 @@ This idea is incorporated into the application’s design, allowing clients to c
 
 # IV. Instructions for Running the Program
 
-1. *Install Java*: Ensure you have the Java Development Kit (JDK) installed on your machine. If not, download and install it from here.
+Here are the step-by-step instructions for running the Loan Processing System program:
 
-2. *Create a Java File*: Copy the provided code into a new .java file (e.g., LoanProcessingSystem.java).
+1. Ensure Java is Installed:
+   - Make sure you have the Java Development Kit (JDK) installed on your machine. You can download the latest version from the official Oracle website or use OpenJDK.
 
-3. *Compile the Program*: Open a terminal or command prompt and navigate to the directory where your .java file is saved. Run the following command to compile the program:
+   To check if Java is installed, open your terminal or command prompt and type:
+   ```bash
+   java -version
+   ```
+   If Java is installed, it will show the version. If not, follow the installation instructions on the official website.
 
-*javac LoanProcessingSystem.java*
+2. Set Up an IDE or Text Editor:
+   - Use an Integrated Development Environment (IDE) such as IntelliJ IDEA, Eclipse, or NetBeans, or a simple text editor like VS Code or Sublime Text for writing and running the code.
+
+3. Create a New Project or File:
+   - Open your IDE or text editor and create a new Java project or file. 
+   - If using a text editor, save the file with the name `LoanProcessingSystem.java`.
+
+4. Copy and Paste the Code:
+   - Copy the entire code provided and paste it into the `LoanProcessingSystem.java` file in your project.
+
+5. Compile the Java Program:
+   - If using an IDE, simply click the "Run" button. The IDE will automatically compile and run the program.
+   - If using the terminal, navigate to the directory where your `LoanProcessingSystem.java` file is saved. Then, run the following command:
+   ```bash
+   javac LoanProcessingSystem.java
+   ```
+   This will compile the Java code and create a `LoanProcessingSystem.class` file.
+
+6. Run the Program:
+   - After compiling, run the program by using the following command in the terminal:
+   ```bash
+   java LoanProcessingSystem
+   ```
+   This will launch the application.
+
+7. Login Screen:
+   - The first window that appears is the login screen. Enter the username (`Lipana`) and password (`Finalproject`).
+   - If correct, the main menu will appear. If incorrect, an error message will be shown.
+
+8. Main Menu:
+   - After successfully logging in, the main menu window will open with several options such as:
+     - Add Loan
+     - View Clients
+     - Search Loan
+     - Update Client Info
+     - Delete Client
+     - Exit
+   - You can select these options by clicking the corresponding buttons in the GUI.
+
+9. Perform Operations:
+   - Add Loan: Allows you to enter client details and add a loan.
+   - View Clients: Displays the list of all clients and their loan details.
+   - Search Loan: Lets you search for a specific client by name.
+   - Update Client Info: Enables you to update the details of an existing client.
+   - Delete Client: Allows you to delete a client from the system.
+   - Exit: Closes the application.
+
+10. Interacting with the Program:
+    - Follow the prompts and dialogs that appear as you interact with the program to input or update data.
+    - The program uses `JOptionPane` for displaying messages and prompts.
+
+11. Exit the Program:
+    - To close the program, click the "Exit" button in the main menu.
+
 
 
 
