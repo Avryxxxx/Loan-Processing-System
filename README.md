@@ -6,11 +6,9 @@ I. Project Overview
 Loan Processing System is a Java Desktop Application meant for easy processing of loans. To provide overview, users can enter new loan records, check client details, search for specific loans, change client data, and remove clients. Swing is the java technology used to develop the user interface of the system which provides with well designed purple colored theme. Loan computations are personalized in the application with the help of OOP concept for increased flexibility and scalability.
 
 II. Application of OOP Principles
-
 The project incorporates the following OOP principles:
 
 Encapsulation:
-
 The ClientInfo class encapsulates client details such as name, address, loan information, and associated methods to manage these attributes.
 Private fields and public getters and setters ensure controlled access to the client data.
 
