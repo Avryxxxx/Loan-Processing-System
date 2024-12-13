@@ -34,7 +34,7 @@ Polymorphism:
 
 # III. Sustainable Development Goal (SDG) Integration
 
-The project aligns with SDG 8: There is SDG Number Ten that focuses on Reducing Inequalities and the Thirteenth SDG that aims at promoting Decent Work and Economic Growth where especial emphasis should be made to improve the financial inclusion. In this regard, such techniques as loan processing and financial information enhancement, foster people’s enlightenment hence would play a pivotal role in enhancing economic rehabilitation.
+This project can be aligned with the United Nations Sustainable Development Goal (SDG) 1: No Poverty because it facilitates and tracks financial exchanges in relation to loans which may in turn help people make better financial choices. Nevertheless, the system had the potential of increasing people’s financial inclusion and opening the doors to credit management that could promote the enhancement of their economic status.
 
 Integration:
 
@@ -42,16 +42,11 @@ This idea is incorporated into the application’s design, allowing clients to c
 
 # IV. Instructions for Running the Program
 
-1. Prerequisites:
+1. #Install Java#: Ensure you have the Java Development Kit (JDK) installed on your machine. If not, download and install it from here.
 
-Ensure you have Java Development Kit (JDK) 8 or later installed on your system.
+2. *Create a Java File*: Copy the provided code into a new .java file (e.g., LoanProcessingSystem.java).
 
-2. Compilation:
-
-Compile the Java files using the javac command:
-'''
-javac LoanProcessingSystem.java
-'''
+Compile the Program: Open a terminal or command prompt and navigate to the directory where your .java file is saved. Run the following command to compile the program:
 
   
 
