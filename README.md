@@ -49,8 +49,9 @@ Ensure you have Java Development Kit (JDK) 8 or later installed on your system.
 2. Compilation:
 
 Compile the Java files using the javac command:
-
+'''
 javac LoanProcessingSystem.java
+'''
 
   
 
