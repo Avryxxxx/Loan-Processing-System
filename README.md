@@ -9,6 +9,7 @@ II. Application of OOP Principles
 The project incorporates the following OOP principles:
 
 Encapsulation:
+
 -The ClientInfo class encapsulates client details such as name, address, loan information, and associated methods to manage these attributes.
 -Private fields and public getters and setters ensure controlled access to the client data.
 
