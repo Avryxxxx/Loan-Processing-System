@@ -13,23 +13,23 @@ The project incorporates the following OOP principles:
 
 Encapsulation:
 
--The ClientInfo class encapsulates client details such as name, address, loan information, and associated methods to manage these attributes.
+   -The ClientInfo class encapsulates client details such as name, address, loan information, and associated methods to manage these attributes.
 
--Private fields and public getters and setters ensure controlled access to the client data.
+   -Private fields and public getters and setters ensure controlled access to the client data.
 
 Abstraction:
 
--The Loan abstract class defines the common attributes (loanAmount, loanTerm, interestRate) and an abstract method calculateMonthlyPayment() for subclasses.
+   -The Loan abstract class defines the common attributes (loanAmount, loanTerm, interestRate) and an abstract method calculateMonthlyPayment() for subclasses.
 
--Specific loan types like PersonalLoan extend the abstract class and implement the calculation logic.
+   -Specific loan types like PersonalLoan extend the abstract class and implement the calculation logic.
 
 Inheritance:
 
--The PersonalLoan class inherits from the Loan class, leveraging shared functionality while allowing customization for specific loan calculations.
+   -The PersonalLoan class inherits from the Loan class, leveraging shared functionality while allowing customization for specific loan calculations.
 
 Polymorphism:
 
--The Loan reference can hold different subclass objects (PersonalLoan), facilitating flexibility in extending loan types without modifying the core logic.
+   -The Loan reference can hold different subclass objects (PersonalLoan), facilitating flexibility in extending loan types without modifying the core logic.
 
 
 # III. Sustainable Development Goal (SDG) Integration
